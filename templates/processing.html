@@ -1,0 +1,72 @@
+{% extends "layout.html" %} {% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+      <div class="card border-secondary mb-3 shadow-lg">
+        <div class="card-header" style="text-align: center">Real Video</div>
+        <div class="card-body text-secondary">
+          <img src="../static/images/1.jpg" width="100%" />
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <div class="card border-secondary mb-3 shadow-lg">
+        <div class="card-header" style="text-align: center">
+          Derivated Video
+        </div>
+        <div class="card-body text-secondary">
+          <img src="../static/images/2.jpg" width="100%" />
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <div class="card border-secondary mb-3 shadow-lg">
+        <div class="card-header" style="text-align: center">
+          Detection Video
+        </div>
+        <div class="card-body text-secondary">
+          <img src="../static/images/3.jpg" width="100%" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card border-secondary mb-3 shadow-lg">
+        <div class="card-body text-secondary">
+          <table class="table table-bordered" style="text-align: center">
+            <thead>
+              <tr>
+                <th scope="col">Hit#</th>
+                <th scope="col">Score</th>
+                <th scope="col">Centeral Distance</th>
+                <th scope="col">Accuracy</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>80</td>
+                <td>20%</td>
+                <td>0.93</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>60</td>
+                <td>40%</td>
+                <td>0.76</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>30</td>
+                <td>70%</td>
+                <td>0.66</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div>{% endblock content %}</div>
